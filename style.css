@@ -1,0 +1,6 @@
+.menu li {
+    display: inline-block;
+    line-height: 3em;
+    font-size: 23px;
+    color: #808080;
+}
