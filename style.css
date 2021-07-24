@@ -5,7 +5,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: #FFFFFF;
+    background-color: #C0C0C0;
 }
 h1 {
     padding-left: 650px;
@@ -20,4 +20,9 @@ header li {
 }
 .contents {
     padding-right:200px;
+}
+ p {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 25px;
 }
