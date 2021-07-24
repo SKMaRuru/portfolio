@@ -1,6 +1,10 @@
-.header-outer {
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     align-items: center;
-    position: sticky;
-    height: 100px;
- }
+    justify-content: space-between;
+    background-color: #FFFFFF;
+}
