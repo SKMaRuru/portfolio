@@ -7,11 +7,17 @@
     align-items: center;
     background-color: #FFFFFF;
 }
+h1 {
+    padding-left: 650px;
+}
 header li {
     display: inline-block;
-    font-size: 15px;
-    padding-left: 300px;
+    font-size: 20px;
+    padding-left: 50px;
 }
 .about {
-    padding-left:200px;
+    padding-left: 300px;
+}
+.contents {
+    padding-right:200px;
 }
