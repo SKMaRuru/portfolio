@@ -10,5 +10,8 @@
 header li {
     display: inline-block;
     font-size: 15px;
-    padding-left: 700px;
+    padding-left: 300px;
+}
+.about {
+    padding-left:200px;
 }
