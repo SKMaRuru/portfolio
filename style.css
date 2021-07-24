@@ -1,5 +1,6 @@
-.menu  {
-    display: inline-block;
-    font-size: 10px;
-    color: #808080;
-}
+.menu-outer {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    height: 100px;
+ }
