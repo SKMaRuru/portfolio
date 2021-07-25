@@ -10,11 +10,11 @@
 h1 {
     padding-left: 665px;
 }
-header li {
+header li{
     display: inline-block;
-    font-size: 20px;
     padding-left: 50px;
-    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
 }
 .about {
     padding-left: 300px;
