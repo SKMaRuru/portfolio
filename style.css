@@ -77,5 +77,22 @@ a:hover {
      width: 600px;
      height: 450px;
  }
+ .list3 {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+ }
+ .list3 li {
+     width: calc(100%/2);
+     padding: 0 5px;
+     box-sizing: border-box;
+     font-size: 20px;
+ }
+ .list3 li img {
+     max-width: 100%;
+     object-fit: cover;
+     width: 600px;
+     height: 450px;
+ }
  
 
