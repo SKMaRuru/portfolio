@@ -1,4 +1,12 @@
-.menu {
+ body {
+    width: 100%;
+    height: 100%;
+    background: url(sozai/sozai5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ .menu {
     position: fixed;
     top: 0;
     left: 0;
@@ -34,4 +42,7 @@ a {
 a:hover {
     text-decoration: underline;
     color:#FF0000 ;
+}
+.item {
+    list-style:none;
 }
