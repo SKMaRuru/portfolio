@@ -37,13 +37,28 @@ header li{
 a {
     text-decoration: none;
     color: #000000;
+    
 }
 a:hover {
     text-decoration: underline;
     color:#FF0000 ;
 }
-.item {
-    list-style:none;
+.list {
+   display: flex;
+   flex-wrap: wrap;
+   list-style: none;
+}
+.list li {
+    width: calc(100%/2);
+    padding: 0 5px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.list li img {
+    max-width: 100%;
+    object-fit: cover;
+    width: 600px;
+    height: 450px;
 }
 
 
