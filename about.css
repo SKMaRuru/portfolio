@@ -1,0 +1,50 @@
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #C0C0C0;
+}
+h1 {
+    padding-left: 650px;
+}
+header li{
+    display: inline-block;
+    padding-left: 50px;
+    font-size: 20px;
+    color: #000000;
+}
+.index {
+    padding-left: 300px;
+}
+.contents {
+    padding-right:200px;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+    
+}
+a:hover {
+    text-decoration: underline;
+    color:#FF0000 ;
+}
+.trim {
+    position:relative;
+    overflow: hidden;
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    position: fixed;
+  }
+  .trim img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    height:100%;
+  }
