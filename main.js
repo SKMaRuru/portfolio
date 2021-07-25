@@ -1,7 +1,7 @@
-const PageTopBtn = document.getElementById('js-scroll-top');
-PageTopBtn.addEventListener('click', () =>{
+const pagetopBtn = document.querySelector('#page-top');
+pagetopBtn.addEventListener('click', () => {
   window.scrollTo({
     top: 0,
-    behavior: 'smooth'
+    behavior: "smooth"
   });
 });
